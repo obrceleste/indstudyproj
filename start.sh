@@ -2,4 +2,4 @@
 docker build . -t indstudy 
 
 # Run the Docker container
-docker run -e PASSWORD=yourpassword -v $(pwd):/home/rstudio/work -p 8787:8787 -it indstudy
+docker run --rm -ti -e PASSWORD=yourpassword -v $(pwd):/home/rstudio/work -p 8787:8787 rocker/rstudio

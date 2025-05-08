@@ -64,8 +64,8 @@ Login to RStudio using the following credentials:
 Using your RStudio terminal, run the following code:
 
 ```bash
-make clean
-make report.pdf
+make -C work clean
+make -C work report.pdf
 ```
 
 This will automatically execute the code and generate the final report.

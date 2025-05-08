@@ -1,0 +1,45 @@
+---
+title: "Netflix Movie Report"
+author: "Celeste O'Brien"
+output:
+  pdf_document:
+    fig_caption: false
+    keep_tex: true
+    latex_engine: pdflatex
+    pandoc_args: ["--wrap=none"]
+---
+
+## Exploring the Data
+
+These exploratory data visualizations summarize patterns in the movie dataset. These charts are intended to provide an introduction to the data and begin generating questions about the relationships between variables. Each chart includes a descriptive title and axis labels for orientation to the chart.
+
+![Time Between Release and Netflix Addition](figures/hist_date_diff.png)
+![IMDb Score by Production Method](figures/box_vote_by_production.png)
+![IMDb Score by Rating](figures/box_vote_by_rating.png)
+![Top 10 Genres on Netflix](figures/bar_genre_freq.png)
+![Top 10 Actors on Netflix](figures/bar_genre_freq.png)
+![Production Budget vs Revenue](figures/scatter_budget_revenue.png)
+![Correlation Matrix of Key Movie Metrics](figures/heatmap.png)
+![Number of Movies Released by Year](figures/year_released.png)
+![Number of Movies Added to Netflix by Year](figures/year_added_netflix.png)
+
+\newpage
+
+## Principal Component Analysis
+
+These visualizations explore the PCA performed on numeric features of the movie dataset. This section visualizes the variance explained, as well as analyzes how movie attributes including budget, IMDb votes, and revenue vary across clusters.
+
+![Scree Plot with Cumulative Variance](figures/cumvar_scree.png)
+![PCA Scatterplot: PC1 vs PC2](figures/scatter_pca.png)
+![K-means Clustering on First 2 Principal Components](figures/clusers.png)
+![Distribution of Production Budget by Cluster](figures/density_by_budget.png)
+![Distribution of IMDb Vote Average by Cluster](figures/density_by_vote.png)
+![Distribution of Revenue by Cluster](figures/density_by_revenue.png)
+
+\newpage
+
+## Logistic Regression and ROC Curve
+
+A logistic regression model was created to predict whether a movie is critically successful (IMDb rating greater than or equal to 7) based on financial and popularity metrics, and the following chart visualizes the model’s performance using an ROC curve and AUC. An AUC (Area Under the Curve) of 0.81 indicates that the model has good discriminative ability.
+
+![ROC Curve and AUC](figures/roc_curve.png)

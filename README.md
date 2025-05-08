@@ -70,5 +70,7 @@ make -C work report.pdf
 
 This will automatically execute the code and generate the final report.
 
+You can close your RStudio session by typing "Command + C" in your Docker terminal.
+
 
 ### Fin :)

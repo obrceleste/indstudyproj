@@ -1,6 +1,11 @@
 ### ROC CURVE ###
 # Author: Celeste O'Brien
 
+# I know this is bad practice, but a quick fix is a quick fix
+install.packages("tidyverse")
+install.packages("pROC")
+install.packages("ggplot2")
+
 # Load required libraries
 library(pROC)
 library(ggplot2)

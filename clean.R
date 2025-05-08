@@ -1,6 +1,11 @@
 ### CLEAN ###
 # Author: Celeste O'Brien
 
+# I know this is bad practice, but a quick fix is a quick fix
+install.packages("tidyverse")
+install.packages("lubridate")
+install.packages("janitor")
+
 # Load required libraries
 library(tidyverse)
 library(lubridate)

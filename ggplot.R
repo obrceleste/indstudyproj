@@ -1,6 +1,12 @@
 ### GGPLOT ###
 # Author: Celeste O'Brien
 
+# I know this is bad practice, but a quick fix is a quick fix
+install.packages("ggplot2")
+install.packages("ggcorrplot")
+install.packages("lubridate")
+install.packages("tidyverse")
+
 # Load required libraries
 library(ggplot2)
 library(ggcorrplot)

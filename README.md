@@ -37,7 +37,7 @@ Using your Docker terminal, run these lines in order:
 
 ```bash
 git clone https://github.com/obrceleste/indstudyproj.git
-cd indstudyproject
+cd indstudy/project
 ```
 
 This will clone the GitHub repository from https://github.com/obrceleste/indstudyproj.git and move into the project directory.

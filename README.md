@@ -9,20 +9,23 @@ the characteristics of top Netflix movies.
 
 ## Data Sources
 Netflix: https://www.kaggle.com/datasets/anandshaw2001/netflix-movies-and-tv-shows?resource=download
+
 Movies: https://www.kaggle.com/datasets/michaelmatta0/movies-ultimate-metrics-features-and-metadata
+
 IMDB: https://www.kaggle.com/datasets/anandshaw2001/imdb-data?resource=download
 
 ## Analysis
 The code provided performs the following tasks:
-	- clean.R: Clean and merge the three data sets for upcoming analysis
-	- ggplot.R: Explore the data with basic visualizations
-	- pca.R: Perform Principal Component Analysis (PCA) on selected numeric features
-		- Use the first two principal components for K-means clustering
-		- Visualize the variance explained and clusters
-		- Analyze how movie attributes vary across clusters
-	- roc.R: Fit a logistic regression model
-		- Predict whether a movie is commercially successful based on metrics
-		- Visualize the model's performance using an ROC curve and AUC
+
+- clean.R: Clean and merge the three data sets for upcoming analysis
+- ggplot.R: Explore the data with basic visualizations
+- pca.R: Perform Principal Component Analysis (PCA) on selected numeric features
+	- Use the first two principal components for K-means clustering
+	- Visualize the variance explained and clusters
+	- Analyze how movie attributes vary across clusters
+- roc.R: Fit a logistic regression model
+	- Predict whether a movie is commercially successful based on metrics
+	- Visualize the model's performance using an ROC curve and AUC
 
 ## Usage
 

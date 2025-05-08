@@ -1,6 +1,7 @@
-### Author: Celeste O'Brien
-### Date: May 8, 2025
-### Course: BIOS 611 Independent Study
+#### Author: Celeste O'Brien
+#### Date: May 8, 2025
+#### Course: BIOS 611 Independent Study
+
 
 ## Purpose of Project
 This project merged three data sets containing information on movies with the intention to analyze
@@ -67,4 +68,4 @@ make report.pdf
 This will automatically execute the code and generate the final report.
 
 
-# FIN
+### Fin :)
